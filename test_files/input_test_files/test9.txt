@@ -1,0 +1,18 @@
+program test;
+var f, n;
+procedure fact;
+	var ans1;
+	begin
+		ans1:=n;
+		n:= n-1;
+		if n < 0 then f := -1;
+		if n = 0 then f := 1
+		else call fact;
+		f:=f*ans1;
+		call writeln(f);
+	end;
+begin
+	call readln(n);
+	call fact;
+	call writeln(f);
+end.

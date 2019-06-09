@@ -1,0 +1,44 @@
+program test;
+const z=10;
+var a, b;
+
+procedure first;
+	var a,b;
+	begin
+		call writeln(z);
+		call writeln(a);
+		call writeln(b);
+		a:=3;
+		b:=4;
+		call writeln(a);
+		call writeln(b);
+	end;
+procedure second;
+	var a,b;
+	begin
+		call writeln(z);
+		call writeln(a);
+		call writeln(b);
+		a:=5;
+		b:=6;
+		call writeln(a);
+		call writeln(b);
+	end;	
+begin
+	a:=1;
+	b:=2;
+	call writeln(a);
+	call writeln(b);
+	call first;
+	call writeln(z);	
+	call writeln(a);
+	call writeln(b);
+	call second;
+	call writeln(z);	
+	call writeln(a);
+	call writeln(b);	
+	call first;
+	call writeln(z);	
+	call writeln(a);
+	call writeln(b);
+end.

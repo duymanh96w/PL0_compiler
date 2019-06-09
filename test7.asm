@@ -1,0 +1,11 @@
+INT 4
+INT 1
+LC 1
+LC 2
+GT
+FJ 10
+LA 0 4
+LC 1
+ST
+J 2
+HLT

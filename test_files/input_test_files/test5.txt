@@ -1,0 +1,11 @@
+program test;
+var x, w;
+begin
+	x:=4;
+	call readln(w);
+	if w > x then
+		w:=w+1
+	else
+		w:=x;
+	call writeln(w);
+end.

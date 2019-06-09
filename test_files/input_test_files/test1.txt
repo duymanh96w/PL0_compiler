@@ -1,0 +1,7 @@
+program test;
+var x, y;
+begin
+	call readln(y);
+	x := y + 56;
+	call writeln(x);
+end.

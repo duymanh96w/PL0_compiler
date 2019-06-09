@@ -1,0 +1,122 @@
+program test;
+var a, b;
+procedure first;
+	var a,b;
+	procedure second;
+		var a,b;
+			begin
+				a:=5;
+				b:=6;
+				call writeln(a);
+				call writeln(b);
+			end;
+name: b, size: 1, offset: 5, kind: 51, begin line: 0, argCount: 0 arguments:  0 0 0 0 0 0 0 0 0 0 
+name: a, size: 1, offset: 4, kind: 51, begin line: 0, argCount: 0 arguments:  0 0 0 0 0 0 0 0 0 0 
+name: 112358, size: 0, offset: 0, kind: 0, begin line: 0, argCount: 0 arguments:  0 0 0 0 0 0 0 0 0 0 
+name: second, size: 0, offset: 6, kind: 53, begin line: 8, argCount: 0 arguments:  0 0 0 0 0 0 0 0 0 0 
+name: b, size: 1, offset: 5, kind: 51, begin line: 0, argCount: 0 arguments:  0 0 0 0 0 0 0 0 0 0 
+name: a, size: 1, offset: 4, kind: 51, begin line: 0, argCount: 0 arguments:  0 0 0 0 0 0 0 0 0 0 
+name: 112358, size: 0, offset: 0, kind: 0, begin line: 0, argCount: 0 arguments:  0 0 0 0 0 0 0 0 0 0 
+name: first, size: 0, offset: 6, kind: 53, begin line: 4, argCount: 0 arguments:  0 0 0 0 0 0 0 0 0 0 
+name: b, size: 1, offset: 5, kind: 51, begin line: 0, argCount: 0 arguments:  0 0 0 0 0 0 0 0 0 0 
+name: a, size: 1, offset: 4, kind: 51, begin line: 0, argCount: 0 arguments:  0 0 0 0 0 0 0 0 0 0 
+name: 112358, size: 0, offset: 0, kind: 0, begin line: 0, argCount: 0 arguments:  0 0 0 0 0 0 0 0 0 0 
+	begin
+		a:=3;
+		b:=4;
+		call writeln(a);
+		call writeln(b);
+		call second;
+	end;
+name: second, size: 0, offset: 6, kind: 53, begin line: 8, argCount: 0 arguments:  0 0 0 0 0 0 0 0 0 0 
+name: b, size: 1, offset: 5, kind: 51, begin line: 0, argCount: 0 arguments:  0 0 0 0 0 0 0 0 0 0 
+name: a, size: 1, offset: 4, kind: 51, begin line: 0, argCount: 0 arguments:  0 0 0 0 0 0 0 0 0 0 
+name: 112358, size: 0, offset: 0, kind: 0, begin line: 0, argCount: 0 arguments:  0 0 0 0 0 0 0 0 0 0 
+name: first, size: 0, offset: 6, kind: 53, begin line: 4, argCount: 0 arguments:  0 0 0 0 0 0 0 0 0 0 
+name: b, size: 1, offset: 5, kind: 51, begin line: 0, argCount: 0 arguments:  0 0 0 0 0 0 0 0 0 0 
+name: a, size: 1, offset: 4, kind: 51, begin line: 0, argCount: 0 arguments:  0 0 0 0 0 0 0 0 0 0 
+name: 112358, size: 0, offset: 0, kind: 0, begin line: 0, argCount: 0 arguments:  0 0 0 0 0 0 0 0 0 0 
+begin
+	a:=1;
+	b:=2;
+	call writeln(a);
+	call writeln(b);
+	call first;
+	call writeln(a);
+	call writeln(b);
+end.ÿname: first, size: 0, offset: 6, kind: 53, begin line: 4, argCount: 0 arguments:  0 0 0 0 0 0 0 0 0 0 
+name: b, size: 1, offset: 5, kind: 51, begin line: 0, argCount: 0 arguments:  0 0 0 0 0 0 0 0 0 0 
+name: a, size: 1, offset: 4, kind: 51, begin line: 0, argCount: 0 arguments:  0 0 0 0 0 0 0 0 0 0 
+name: 112358, size: 0, offset: 0, kind: 0, begin line: 0, argCount: 0 arguments:  0 0 0 0 0 0 0 0 0 0 
+
+Thanh cong!!!
+INT 4
+INT 1
+INT 1
+J 40
+INT 4
+INT 1
+INT 1
+J 24
+INT 4
+INT 1
+INT 1
+LA 0 4
+LC 5
+ST
+LA 0 5
+LC 6
+ST
+LA 0 4
+LI
+WRI
+LA 0 5
+LI
+WRI
+EP
+LA 0 4
+LC 3
+ST
+LA 0 5
+LC 4
+ST
+LA 0 4
+LI
+WRI
+LA 0 5
+LI
+WRI
+INT 4
+DCT 4
+CALL 0 8
+EP
+LA 0 4
+LC 1
+ST
+LA 0 5
+LC 2
+ST
+LA 0 4
+LI
+WRI
+LA 0 5
+LI
+WRI
+INT 4
+DCT 4
+CALL 0 4
+LA 0 4
+LI
+WRI
+LA 0 5
+LI
+WRI
+HLT
+1
+2
+3
+4
+5
+6
+1
+2

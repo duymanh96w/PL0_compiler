@@ -1,0 +1,13 @@
+program test;
+var i, a, foo[10];
+procedure pr (var a);
+	begin
+		a := a-5;
+	end;
+begin
+	a := 10;
+	call writeln(a);
+	i := 3;
+	call pr(a);
+	call writeln(a);
+end.

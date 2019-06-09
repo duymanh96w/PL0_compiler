@@ -1,0 +1,28 @@
+program test;
+var a, b;
+procedure first;
+	var a,b;
+	procedure second;
+		var a,b;
+			begin
+				a:=5;
+				b:=6;
+				call writeln(a);
+				call writeln(b);
+			end;
+	begin
+		a:=3;
+		b:=4;
+		call writeln(a);
+		call writeln(b);
+		call second;
+	end;
+begin
+	a:=1;
+	b:=2;
+	call writeln(a);
+	call writeln(b);
+	call first;
+	call writeln(a);
+	call writeln(b);
+end.

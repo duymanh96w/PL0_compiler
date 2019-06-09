@@ -1,0 +1,21 @@
+program test;
+var x, y;
+begin
+	call readln(x);
+	call readln(y);
+	if x=2 then
+		y:=2
+	else
+		x := y + 56;
+
+	call writeln(x);
+	call writeln(y);
+	
+	if y<3 then
+		y:=3
+	else
+		y := 400 / 2;
+
+	call writeln(x);
+	call writeln(y);
+end.

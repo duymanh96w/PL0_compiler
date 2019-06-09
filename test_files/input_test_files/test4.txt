@@ -1,0 +1,23 @@
+program test;
+const m = 7, n = 10;
+var  i,x,y,z,q,r;
+procedure mult;
+	var a, b;
+	begin
+		a := x;  b := y; z := 0;
+		while b > 0 do
+		begin
+			a := 2*a;
+			b := b-1;
+		end;
+		call writeln(a);
+		call writeln(b);
+	end;
+
+	begin
+		x := m;
+		y := n;
+		call mult;
+		call writeln(x);
+		call writeln(y);
+	end.
